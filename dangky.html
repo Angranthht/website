@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Đăng Ký</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/dangky.css">
+     <script language="javascript" src="javascript/kiemtradangky.js"></script>
+</head>
+<body>
+    <section>
+        <div class="noi-dung">
+            <div class="form">
+                <!-- <a href="trang1.html"><img class="logo" src="images/logophu.jpg" ></a> -->
+                <h2>Đăng Ký </h2>
+                <form action="trang1.html"onsubmit="return KiemTraThongTin()">
+                    <div class="input-form">
+                        <input autocomplete="off" type="text" id="hoten" placeholder="Họ và tên" >
+                    </div>
+                    <div class="input-form">
+                        <input autocomplete="off" type="email" name="txtEmail" id="email" placeholder="Email" >
+                    </div>
+                    <div class="input-form">
+                        <input type="password" name="txtMatKhau" id="matkhau" placeholder="Mật khẩu" >
+                    </div>
+                    <div class="input-form">
+                        <input type="password" name="txtNhapLaiMatKhau" id="nhaplaimatkhau" placeholder="Nhập lại mật khẩu" />
+                    </div>
+                    <div >
+                        <div class="label">
+                            <input id="checkbox" type="checkbox" value="">
+                            Tôi đồng ý với các   
+                            <a href="#" class="hoverlink">Điều khoản & Dịch vụ</a></div>
+                    </div>
+                    <div class="input-form">
+                        <input type="submit" class="nutdangky" name="submit" id="submit" value="Đăng ký" />
+                    </div>
+                </form>
+                <p >Bạn đã có sẵn tài khoản ? <a class="hoverlink" href="dangnhap.html" >Đăng nhập</a></p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
